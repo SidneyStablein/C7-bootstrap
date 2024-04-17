@@ -1,0 +1,21 @@
+/* Add screen styles below */
+a.active {
+    font-weight: bold;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+width: 273px;
+}
+
+.likes {
+width: 68px;
+}
+
+.views {
+
+}
