@@ -3,19 +3,60 @@ a.active {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 20px;
+    width: 170px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li.borderless { border: 0 none; }
+
+.thumbnail {
+    margin-bottom: 20px;
+}
+
 .flexbox {
     display: flex;
     flex-direction: row;
 }
 
 .username {
-width: 273px;
+    width: 170px;
+    padding-left: 12px;
+    margin-right: 60px;
+    padding-top: 4px;
+}
+
+.user {
+    width: 34px;
+    }
+
+.heart {
+    width: 28px;
 }
 
 .likes {
-width: 68px;
+    width: 38px;
+    padding-left: 5px;
+    padding-top: 4px;
+    margin-right: 12px;
+    height: 10px;
+}
+
+.eye {
+    width: 20px;
 }
 
 .views {
-
+    width: 48px;
+    padding-left: 5px;
+    padding-top: 4px;
 }
