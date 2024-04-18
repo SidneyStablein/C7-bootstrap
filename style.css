@@ -22,8 +22,6 @@ h2 {
 }
 
 .filter {
-    width: 20px;
-    height: 19px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -32,22 +30,26 @@ h2 {
     padding-left: 60px;
 }
 
-.navbar-custom {  
-    background-color: white;
-    margin-left: 180px; 
-    width: 100%; 
+.nav-item {
+    padding-left: 80px;
 }
 
-.dropdown-menu {
-    border: 2px gray;
-    border-radius: 15px;
+.navbar-custom {  
+    background-color: white;
+    margin-left: 180px;  
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 18px;
 }
 
 .print {
-    padding-right: 220px;
+    padding-right: 90px;
 }
 
+
 .nav-pills .nav-link.active { background-color: #F8F7F4; border-radius: 30px;}
+
+.nav-pills-custom .nav-link.active { background-color: #F8F7F4; border-radius: 30px;}
 
 li.borderless { border: 0 none; padding-bottom: 50px;}
 
